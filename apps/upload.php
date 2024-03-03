@@ -8,11 +8,11 @@ ini_set('post_max_size', '2000M');
 $uploadDirectory = 'uploads/';
 
 // Verificar si se ha recibido el archivo y no hay errores
-if (isset($_FILES['file_bg_pic']) && $_FILES['file_bg_pic']['error'] === UPLOAD_ERR_OK) {
-    $tempFile = $_FILES['file_bg_pic']['tmp_name'];
-    $originalName = $_FILES['file_bg_pic']['name'];
-    $fileSize = $_FILES['file_bg_pic']['size'];
-    $fileType = $_FILES['file_bg_pic']['type'];
+if (isset($_FILES['file_binary']) && $_FILES['file_binary']['error'] === UPLOAD_ERR_OK) {
+    $tempFile = $_FILES['file_binary']['tmp_name'];
+    $originalName = $_FILES['file_binary']['name'];
+    $fileSize = $_FILES['file_binary']['size'];
+    $fileType = $_FILES['file_binary']['type'];
 
     $uniqueId = uniqid('', true);
     $chunkIndex = isset($_POST['chunkIndex']) ? $_POST['chunkIndex'] : 0;
@@ -71,7 +71,7 @@ if (isset($_FILES['file_bg_pic']) && $_FILES['file_bg_pic']['error'] === UPLOAD_
     }
 } else {
     // Manejar posibles errores al subir el archivo
-    switch ($_FILES['file_bg_pic']['error']) {
+    switch ($_FILES['file_binary']['error']) {
         case UPLOAD_ERR_INI_SIZE:
         case UPLOAD_ERR_FORM_SIZE:
             $message = 'El tamaño del archivo excede el límite';
