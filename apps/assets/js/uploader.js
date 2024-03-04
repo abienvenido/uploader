@@ -216,3 +216,14 @@ if (navigator.connection) {
     const connection = navigator.connection;
     console.log('Velocidad de descarga: ' + connection.downlink + ' Mbps');
 }
+
+// Obtenemos la IP del usaurio
+fetch('https://api.ipify.org?format=json')
+  .then(response => response.json())
+  .then(data => {
+    const ipAddress = data.ip;
+    console.log('La dirección IP del usuario es: ' + ipAddress);
+  })
+  .catch(error => {
+    console.error('Error al obtener la dirección IP: ', error);
+  });
