@@ -63,7 +63,7 @@ services:
       - ./config/php/custom.conf:/usr/local/etc/php-fpm.d/zz-custom.conf
       - ./config/php/xdebug.ini:/usr/local/etc/php/conf.d/zz-xdebug.ini
       - ./logs/php-fpm/:/tmp/xdebug_log
-      - ./config/php/memory_limit.ini:/usr/local/etc/php/conf.d/memory_limit.ini
+      - ./config/php/php-custom.ini:/usr/local/etc/php/conf.d/memory_limit.ini
     networks:
       - php-network-nameproject
 

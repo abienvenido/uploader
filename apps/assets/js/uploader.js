@@ -107,9 +107,7 @@ dragArea.addEventListener('dragleave', function(event) {
 
 // Función Genérica
 async function handleFileUpload(file) {
-    const url = 'http://localhost:8899/upload.php';
-    const chunkSize = 1024 * 1024; // 1MB
-
+    const chunkSize = config.chunkSize;
     let chunkIndex = localStorage.getItem('chunkIndex') || 0;
     chunkIndex = parseInt(chunkIndex);
     let start = chunkIndex * chunkSize;
@@ -129,7 +127,7 @@ async function handleFileUpload(file) {
         }
 
         try {
-            const response = await postFormData(url, formData);
+            const response = await postFormData(formData);
             console.log(response); // Response from server
 
             // Mostrar el progreso y el mensaje de estado
@@ -195,12 +193,26 @@ async function uploadFileDrag(file) {
 }
 
 //------------------------------------------------------------------------------------------------------------------------
+// CONFIG: Variables de configuración
+//------------------------------------------------------------------------------------------------------------------------
+const config = {
+    backendUrl: 'http://localhost:8899/upload.php', // Puedes cambiar esto por tu URL deseada
+    chunkSize: 120 * 1024 * 1024 // 120 MB 
+};
+
+//------------------------------------------------------------------------------------------------------------------------
 // POST: Llamada al backend de PHP
 //------------------------------------------------------------------------------------------------------------------------
-async function postFormData(url, formData) {
-    const response = await fetch(url, {
+async function postFormData(formData) {
+    const response = await fetch(config.backendUrl, {
         method: 'POST',
         body: formData
     });
     return await response.json();
+}
+
+// Calcular la velocidad de internet del usuario
+if (navigator.connection) {
+    const connection = navigator.connection;
+    console.log('Velocidad de descarga: ' + connection.downlink + ' Mbps');
 }

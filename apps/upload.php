@@ -1,8 +1,10 @@
 <?php
 
-// Establecer las directivas de PHP para el tamaño máximo de carga
-ini_set('upload_max_filesize', '2000M');
-ini_set('post_max_size', '2000M');
+// TODO:
+// Manejo de fragmentos: En lugar de guardar los fragmentos de archivo en un directorio temporal y
+// luego concatenarlos en el archivo final, podrías escribir directamente los fragmentos 
+// en el archivo final a medida que llegan. Esto evitaría la necesidad de almacenar múltiples 
+// fragmentos de archivos en disco y reduciría el uso de recursos del servidor.
 
 // Directorio donde se guardarán los archivos subidos
 $uploadDirectory = 'uploads/';
