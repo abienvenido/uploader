@@ -15,6 +15,8 @@
 `INFRAESTRUCTURA:`
 ☐ Nuevas directivas en nginx para la mejora de la caché y mejora de la subida de los ficheros
 ☐ Nuevas variables en la configuración de php para el manejo de ficheros grandes
+☐ Revisar el Dockerfile para dejarlo estable y limpio
+☐ Revisar lo que se necesita en el docker-compose.yml
 
 `DOCUMENTACIÓN TÉCNICA`:
 ☐ Crear un markdown readme.md sobre el uso de la libreria js
