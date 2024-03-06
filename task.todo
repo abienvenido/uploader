@@ -13,7 +13,7 @@
 ☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros
 
 `INFRAESTRUCTURA:`
-☐ Nuevas directivas en nginx para la mejora de la caché y mejora de los ficheros
+☐ Nuevas directivas en nginx para la mejora de la caché y mejora de la subida de los ficheros
 ☐ Nuevas variables en la configuración de php para el manejo de ficheros grandes
 
 `DOCUMENTACIÓN TÉCNICA`:
