@@ -10,7 +10,8 @@
 
 `FEATIRES JS`:
 ☐ Crear funciones más especificas en la librería de js para la subida de ficheros
-☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros
+☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros. 
+☐ Hacer como la página del "gordo". Megaupload. Ajustar el ancho de banda en un futuro para los que pagan, la máxima velocidad, y limitada para el uso free.
 
 `INFRAESTRUCTURA:`
 ☐ Nuevas directivas en nginx para la mejora de la caché y mejora de la subida de los ficheros
