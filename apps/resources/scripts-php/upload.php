@@ -6,6 +6,11 @@
 // en el archivo final a medida que llegan. Esto evitaría la necesidad de almacenar múltiples 
 // fragmentos de archivos en disco y reduciría el uso de recursos del servidor.
 
+// Utilizar lo siguiente:
+    // $fp = fopen($finalFile, 'ab');        
+    // $chunk = fopen($targetFileChunk, 'rb'); // Abrir el fragmento cargado
+    // stream_copy_to_stream($chunk, $fp); // Copiar el contenido del fragmento al archivo final
+
 // Directorio donde se guardarán los archivos subidos
 $uploadDirectory = 'uploads/';
 

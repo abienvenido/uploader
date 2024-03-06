@@ -1,3 +1,6 @@
+//TODO:
+// 1) Bloquear el drag an drop si ya existe un fichero cargando
+
 localStorage.removeItem('chunkIndex');
 
 // Obtener referencia al área de arrastrar y soltar
@@ -196,7 +199,7 @@ async function uploadFileDrag(file) {
 // CONFIG: Variables de configuración
 //------------------------------------------------------------------------------------------------------------------------
 const config = {
-    backendUrl: 'http://localhost:8899/upload.php', // Puedes cambiar esto por tu URL deseada
+    backendUrl: 'http://localhost:8899/controller/api/upload.php', // Puedes cambiar esto por tu URL deseada
     chunkSize: 120 * 1024 * 1024 // 120 MB 
 };
 
