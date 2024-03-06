@@ -12,6 +12,14 @@
 ☐ Crear funciones más especificas en la librería de js para la subida de ficheros
 ☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros. 
 ☐ Hacer como la página del "gordo". Megaupload. Ajustar el ancho de banda en un futuro para los que pagan, la máxima velocidad, y limitada para el uso free.
+☐ Sacar la variables de configuración a un objeto json o js de la libreria.
+☐ Sacar de la librería todo aquello que no esté relacionada con la subida
+
+`UX:`
+☐ Ordenar el fichero y añadir nuevos comentarios en el fichero css. Es el que tengo más abandonado
+☐ Añadir nuevas funcionalidades para el usaurio
+☐ Elegir la paleta de colores y dejarla definidas
+☐ Elegir las fuentes de letras y dejarlas definidas
 
 `INFRAESTRUCTURA:`
 ☐ Nuevas directivas en nginx para la mejora de la caché y mejora de la subida de los ficheros
