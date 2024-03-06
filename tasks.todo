@@ -8,7 +8,7 @@
 ✔ Transformar el script en una clase y una funcion para la API @done(24-03-06 23:09)
 ☐ Meter autenticación a la API: Estudiar la posibilidad de JWT
 
-`FEATIRES JS`:
+`FEATURES JS`:
 ☐ Crear funciones más especificas en la librería de js para la subida de ficheros
 ☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros. 
 ☐ Hacer como la página del "gordo". Megaupload. Ajustar el ancho de banda en un futuro para los que pagan, la máxima velocidad, y limitada para el uso free.
