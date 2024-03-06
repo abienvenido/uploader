@@ -6,5 +6,5 @@ logs/php-fpm/*
 !logs/php-fpm/.gitkeep
 logs/xdebug/*
 !logs/xdebug/.gitkeep
-uploads/*
-!uploads/.gitkeep
+apps/uploads/*
+!apps/uploads/.gitkeep
