@@ -1,0 +1,21 @@
+
+`BUGS:`
+☐ Bloquear el drag an drop si existe un fichero en carga
+
+`FEATURES PHP:`
+✔ Crear el fichero de configuración de variables globales para php @done(24-03-06 23:08)
+✔ Crear una carpeta de controladores y la subsiguiente carpeta para la api @done(24-03-06 23:08)
+✔ Transformar el script en una clase y una funcion para la API @done(24-03-06 23:09)
+☐ Meter autenticación a la API: Estudiar la posibilidad de JWT
+
+`FEATIRES JS`:
+☐ Crear funciones más especificas en la librería de js para la subida de ficheros
+☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros
+
+`INFRAESTRUCTURA:`
+☐ Nuevas directivas en nginx para la mejora de la caché y mejora de los ficheros
+☐ Nuevas variables en la configuración de php para el manejo de ficheros grandes
+
+`DOCUMENTACIÓN TÉCNICA`:
+☐ Crear un markdown readme.md sobre el uso de la libreria js
+☐ Mejorar el README.MD de instalación en local para el desarrollo

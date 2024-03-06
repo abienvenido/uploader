@@ -1,6 +1,3 @@
-//TODO:
-// 1) Bloquear el drag an drop si ya existe un fichero cargando
-
 localStorage.removeItem('chunkIndex');
 
 // Obtener referencia al área de arrastrar y soltar
