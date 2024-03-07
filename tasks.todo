@@ -1,32 +1,33 @@
 
-`BUGS:`
-☐ Bloquear el drag an drop si existe un fichero en carga
+    `BUGS:`
+    ☐ Bloquear el drag an drop si existe un fichero en carga
 
-`FEATURES PHP:`
-✔ Crear el fichero de configuración de variables globales para php @done(24-03-06 23:08)
-✔ Crear una carpeta de controladores y la subsiguiente carpeta para la api @done(24-03-06 23:08)
-✔ Transformar el script en una clase y una funcion para la API @done(24-03-06 23:09)
-☐ Meter autenticación a la API: Estudiar la posibilidad de JWT
+    `FEATURES PHP:`
+    ✔ Crear el fichero de configuración de variables globales para php @done(24-03-06 23:08)
+    ✔ Crear una carpeta de controladores y la subsiguiente carpeta para la api @done(24-03-06 23:08)
+    ✔ Transformar el script en una clase y una funcion para la API @done(24-03-06 23:09)
+    ☐ Meter autenticación a la API: Estudiar la posibilidad de JWT
 
-`FEATURES JS`:
-☐ Crear funciones más especificas en la librería de js para la subida de ficheros
-☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros. 
-☐ Hacer como la página del "gordo". Megaupload. Ajustar el ancho de banda en un futuro para los que pagan, la máxima velocidad, y limitada para el uso free.
-☐ Sacar la variables de configuración a un objeto json o js de la libreria.
-☐ Sacar de la librería todo aquello que no esté relacionada con la subida
+    `FEATURES JS`:
+    ☐ Crear funciones más especificas en la librería de js para la subida de ficheros
+    ☐ Controlar el ancho de banda de la red en función del usuario al subir ficheros. 
+    ☐ Hacer como la página del "gordo". Megaupload. Ajustar el ancho de banda en un futuro para los que pagan, la máxima velocidad, y limitada para el uso free.
+    ☐ Sacar la variables de configuración a un objeto json o js de la libreria.
+    ☐ Sacar de la librería todo aquello que no esté relacionada con la subida
+    ☐ Modificar el backend URL para que no sea a fuego y coga los valores de forma dinamica
 
-`UX:`
-☐ Ordenar el fichero y añadir nuevos comentarios en el fichero css. Es el que tengo más abandonado
-☐ Añadir nuevas funcionalidades para el usaurio
-☐ Elegir la paleta de colores y dejarla definidas
-☐ Elegir las fuentes de letras y dejarlas definidas
+    `UX:`
+    ☐ Ordenar el fichero y añadir nuevos comentarios en el fichero css. Es el que tengo más abandonado
+    ☐ Añadir nuevas funcionalidades para el usaurio
+    ☐ Elegir la paleta de colores y dejarla definidas
+    ☐ Elegir las fuentes de letras y dejarlas definidas
 
-`INFRAESTRUCTURA:`
-☐ Nuevas directivas en nginx para la mejora de la caché y mejora de la subida de los ficheros
-☐ Nuevas variables en la configuración de php para el manejo de ficheros grandes
-☐ Revisar el Dockerfile para dejarlo estable y limpio
-☐ Revisar lo que se necesita en el docker-compose.yml
+    `INFRAESTRUCTURA:`
+    ☐ Nuevas directivas en nginx para la mejora de la caché y mejora de la subida de los ficheros
+    ☐ Nuevas variables en la configuración de php para el manejo de ficheros grandes
+    ☐ Revisar el Dockerfile para dejarlo estable y limpio
+    ☐ Revisar lo que se necesita en el docker-compose.yml
 
-`DOCUMENTACIÓN TÉCNICA`:
-☐ Crear un markdown readme.md sobre el uso de la libreria js
-☐ Mejorar el README.MD de instalación en local para el desarrollo
+    `DOCUMENTACIÓN TÉCNICA`:
+    ☐ Crear un markdown readme.md sobre el uso de la libreria js
+    ☐ Mejorar el README.MD de instalación en local para el desarrollo
