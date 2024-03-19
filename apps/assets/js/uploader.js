@@ -198,13 +198,14 @@ async function handleFileUpload(file) {
 
         enableDragAndDrop(); // Habilitar el área de arrastrar y soltar después de completar la subida
 
-       borrarCookies();
-       borrarLocalStorage();
-       borrarSessionStorage();
+        // Habilitar el botón de carga después de completar la subida
+        document.getElementById('uploadButton').disabled = false;
+
+        borrarCookies();
+        borrarLocalStorage();
+        borrarSessionStorage();
     }
 
-    // Habilitar el botón de carga después de completar la subida
-    document.getElementById('uploadButton').disabled = false;
 }
 
 // Llamada a la función handleFileUpload para el evento button uploader
