@@ -1,6 +1,7 @@
 
     `BUGS:`
-    ☐ Bloquear el drag an drop si existe un fichero en carga
+    ✔ Bloquear el drag an drop si existe un fichero en carga @done(24-03-20 00:08)
+    ✔ Liberar espacio en localstorage para no bloquear al navegador en la memoria temporal que dispone @done(24-03-20 00:08)
 
     `FEATURES PHP:`
     ✔ Crear el fichero de configuración de variables globales para php @done(24-03-06 23:08)

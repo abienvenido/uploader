@@ -455,3 +455,8 @@ progress {
   color:#ccc;
 }
 
+.disabled {
+  background-color: #f2f2f2; /* Color de fondo gris */
+  opacity: 0.5; /* Reducción de la opacidad */
+  cursor: not-allowed; /* Cambio del cursor */
+}
