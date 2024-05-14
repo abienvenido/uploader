@@ -19,14 +19,20 @@
 .sidebar.close{
   width: 78px;
 }
+.sidebar .logo {
+  display: flex;
+  margin-left: 25px;
+  width: 55px;
+}
 .sidebar .logo-details{
   height: 70px;
   width: 100%;
-  /* display: flex; */
+  display: flex;
   margin-top: 15px;
   align-items: center;
 }
 .sidebar .logo-details i{
+  display: flex;
   font-size: 30px;
   color: #fff;
   height: 50px;
@@ -35,6 +41,7 @@
   line-height: 50px;
 }
 .sidebar .logo-details .logo_name{
+  display: flex;
   font-size: 22px;
   color: #fff;
   font-weight: 600;
@@ -43,10 +50,11 @@
   text-align: center;
 }
 .sidebar.close .logo-details .logo_name{
+  display: flex;
   transition-delay: 0s;
   opacity: 0;
   pointer-events: none;
-  text-align: center;s
+  text-align: center;
 }
 .sidebar .nav-links{
   height: 100%;
